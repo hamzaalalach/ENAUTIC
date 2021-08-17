@@ -1,0 +1,27 @@
+{
+	"name": "school-attendence",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node bin/www",
+		"dev": "nodemon bin/www"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"compression": "^1.7.4",
+		"config": "^3.3.3",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"helmet": "^3.22.0",
+		"hpp": "^0.2.3",
+		"mongoose": "5.6.10",
+		"morgan": "^1.10.0",
+		"node-cron": "^3.0.0",
+		"xss-clean": "^0.1.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
